@@ -28,8 +28,8 @@ Guide](https://github.com/ScoopInstaller/.github/blob/main/.github/CONTRIBUTING.
 and [App Manifests](https://github.com/ScoopInstaller/Scoop/wiki/App-Manifests)
 wiki page.
 
-## License
-
-![Unlicense License](/img/un.png)
+## [License](https://github.com/eclecticbouquet/pail/blob/main/LICENSE)
 
 This is free and unencumbered software, released into the public domain.
+
+<img src="https://raw.githubusercontent.com/eclecticbouquet/pail/refs/heads/master/img/un.png" alt="mit-license" height="150"/>
