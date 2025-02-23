@@ -12,22 +12,18 @@ First, [install the scoop package manager](https://github.com/ScoopInstaller/Ins
 Install this bucket:
 
 ```pwsh
-scoop bucket add pail https://github.com/eclecticbouquet/pail
+scoop bucket add eclecticbouquet_pail https://github.com/eclecticbouquet/pail
 ```
 
 Install apps:
 
 ```pwsh
-scoop install pail/<manifestname>
+scoop install eclecticbouquet_pail/<mainfest_name>
 ```
 
 ## How do I contribute new manifests?
 
 To make a new manifest contribution to this or any bucket, please read the [Contributing Guide](https://github.com/ScoopInstaller/.github/blob/main/.github/CONTRIBUTING.md) and [App Manifests](https://github.com/ScoopInstaller/Scoop/wiki/App-Manifests) wiki page.
-
-## Notes
-
-Bucket test currently failing due to a bug with the bucket template, documented [here](https://github.com/ScoopInstaller/BucketTemplate/issues/18). Regardless, everything seems to be fuctioning.
 
 ## [License](https://github.com/eclecticbouquet/pail/blob/main/LICENSE)
 

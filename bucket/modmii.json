@@ -1,0 +1,40 @@
+{
+    "version": "7.0.3",
+    "description": "ModMii is a tool to help you modify ANY Wii",
+    "homepage": "https://modmii.github.io/",
+    "license": "GPL-3.0-only",
+    "url": "https://github.com/modmii/modmii.github.io/releases/download/7.0.3/ModMii.zip",
+    "hash": "d22694436b3a007b936a5517daca5498acc169611d041e50c18cd95098ee55ad",
+    "checkver": {
+        "github": "https://github.com/modmii/modmii.github.io",
+        "regex": "releases/download/([\\d.]+)/ModMii.zip"
+    },
+"autoupdate": {
+        "url": "https://github.com/modmii/modmii.github.io/releases/download/$version/ModMii.zip"
+    },
+    "bin": [
+        "ModMii.exe",
+        "ModMiiSkin.exe"
+    ],
+    "shortcuts": [
+        [
+            "ModMii.exe",
+            "ModMii"
+        ],
+        [
+            "ModMiiSkin.exe",
+            "ModMii Skin"
+        ]
+    ],
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\Support\\settings.bat\")) {",
+        "   Set-Content \"$dir\\Support\\settings.bat\" @('Set AUTOUPDATE=OFF', 'Set PCSAVE=Portable') -Encoding Ascii",
+        "}"
+    ],
+    "persist": [
+        "COPY_TO_SD",
+        "COPY_TO_USB",
+        "Support\\settings.bat",
+        "temp"
+    ]
+}
