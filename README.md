@@ -12,13 +12,13 @@ First, [install the scoop package manager](https://github.com/ScoopInstaller/Ins
 Install this bucket:
 
 ```pwsh
-scoop bucket add eclecticbouquet_pail https://github.com/eclecticbouquet/pail
+scoop bucket add pail https://github.com/eclecticbouquet/pail
 ```
 
 Install apps:
 
 ```pwsh
-scoop install eclecticbouquet_pail/<mainfest_name>
+scoop install pail/<mainfest_name>
 ```
 
 ## How do I contribute new manifests?
