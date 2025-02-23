@@ -1,4 +1,4 @@
-# Scoop Bucket Template
+# Pail
 
 [![Tests](https://github.com/eclecticbouquet/pail/actions/workflows/ci.yml/badge.svg)](https://github.com/eclecticbouquet/pail/actions/workflows/ci.yml)
 [![Excavator](https://github.com/eclecticbouquet/pail/actions/workflows/excavator.yml/badge.svg)](https://github.com/eclecticbouquet/pail/actions/workflows/excavator.yml)
