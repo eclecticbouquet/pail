@@ -3,7 +3,7 @@
 [![Tests](https://github.com/eclecticbouquet/pail/actions/workflows/ci.yml/badge.svg)](https://github.com/eclecticbouquet/pail/actions/workflows/ci.yml)
 [![Excavator](https://github.com/eclecticbouquet/pail/actions/workflows/excavator.yml/badge.svg)](https://github.com/eclecticbouquet/pail/actions/workflows/excavator.yml)
 
-Personally curated collection of Windows software, now scoopable.
+I prefer to install all software in Windows via a package manager. If a trusted way is not readily available, scoop makes it really easy to create my own manifests. So this is a hodgepodge of software, all not otherwise available via a known/trusted repository for any of the Windows package managers (winget, Chocolatey, or scoop).
 
 ## How do I use this bucket?
 
@@ -15,7 +15,7 @@ Install this bucket:
 scoop bucket add pail https://github.com/eclecticbouquet/pail
 ```
 
-Install apps:
+Install packages:
 
 ```pwsh
 scoop install pail/<mainfest_name>
