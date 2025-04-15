@@ -1,10 +1,10 @@
 {
-    "version": "8.0.2",
+    "version": "8.0.3",
     "description": "ModMii is a tool to help you modify ANY Wii",
     "homepage": "https://modmii.github.io/",
     "license": "GPL-3.0-only",
-    "url": "https://github.com/modmii/modmii.github.io/releases/download/8.0.2/ModMii.zip",
-    "hash": "251ae1743975fd958534031967cf2294c684e06573daf62d54718e3047e9b5f4",
+    "url": "https://github.com/modmii/modmii.github.io/releases/download/8.0.3/ModMii.zip",
+    "hash": "c6d90cbaa4940b5de4bdf325e97dec5df6122222c2923f65ec9e04c23d98dec1",
     "checkver": {
         "github": "https://github.com/modmii/modmii.github.io",
         "regex": "releases/download/([\\d.]+)/ModMii.zip"
