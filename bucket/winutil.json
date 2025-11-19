@@ -1,11 +1,11 @@
 {
-    "version": "25.10.06",
+    "version": "25.11.17",
     "description": "Chris Titus Tech's Windows Utility - Install Programs, Tweaks, Fixes, and Updates",
     "homepage": "https://github.com/ChrisTitusTech/winutil/",
     "license": "MIT license",
     "notes": "Run 'winutil' in PowerShell to launch the script.",
-    "url": "https://github.com/ChrisTitusTech/winutil/releases/download/25.10.06/winutil.ps1",
-    "hash": "3200a2a5f635712e618b80dd0818949a543f4b0de7cbbb53401c9c73e78b80b8",
+    "url": "https://github.com/ChrisTitusTech/winutil/releases/download/25.11.17/winutil.ps1",
+    "hash": "c0d945b4c23366620de18f65bd992e6208bf83671761e708dd5b1f21d3bd5ba8",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/ChrisTitusTech/winutil/releases/download/$version/winutil.ps1"
