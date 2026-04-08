@@ -1,5 +1,5 @@
 name: 🔢 Hash Error
-description: Open an issue about a package's hash is incorrect.
+description: Open an issue about a package's hash being incorrect.
 labels: ["bug"]
 body:
 - type: checkboxes
